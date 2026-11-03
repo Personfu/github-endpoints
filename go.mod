@@ -1,11 +1,12 @@
 module github.com/gwen001/github-endpoints
 
-go 1.13
+go 1.26.0
+
+toolchain go1.27.3
 
 require (
-	github.com/bobesa/go-domain-util v0.0.0-20190911083921-4033b5f7dd89 // indirect
 	github.com/jpillora/go-tld v1.0.0
-	github.com/json-iterator/go v1.1.10
 	github.com/logrusorgru/aurora v2.0.3+incompatible
-	golang.org/x/net v0.0.0-20200707034311-ab3426394381 // indirect
 )
+
+require golang.org/x/net v0.62.0 // indirect
